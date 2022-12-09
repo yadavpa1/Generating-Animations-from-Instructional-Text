@@ -4,6 +4,10 @@ This is the code for [Generating Animations from Instructional Text](https://www
 
 Generating animations from text finds application in numerous areas like screenplay writing, instructional videos, public safety, and video user manuals, etc. However, translating natural language text into animations is a challenging task. We develop a text-to-animation system that can handle any simple instructional text. We have created an NLP pipeline to extract action sequences from cooking recipes and map them to appropriate atomic actions present in the system’s knowledge base. This paper explores a novel approach of linking Graphics with Natural Language Processing (NLP). Our goal is to obviate the necessity of having a large collection of stored graphics.
 
+
+A sample animation generated from cooking recipe instructional text can be found [here](https://youtu.be/RphVe74zOAU).
+
+
 ## Usage
 
 Install all the pip modules in requirements.txt in nlp_pipeline_server directory. Note: cython and numpy should be installed before benepar
